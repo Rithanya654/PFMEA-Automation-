@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+# PFMEA Automation Platform using AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project automates the **Process Failure Mode and Effects Analysis (PFMEA)** workflow using **AI driven analysis** and **structured data processing**.  
+The system converts **MBOM inputs** into **fully populated PFMEA sheets**, reducing manual effort, improving consistency, and accelerating manufacturing risk assessments.
 
-In the project directory, you can run:
+The platform was developed as part of an **industry focused internship project** aimed at modernizing traditional spreadsheet based PFMEA workflows.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Problem Statement
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Traditional PFMEA preparation is:
 
-### `npm test`
+- Manual and time consuming  
+- Highly dependent on domain experts  
+- Inconsistent across teams and projects  
+- Difficult to scale for large manufacturing programs  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project addresses these challenges by introducing **AI assisted PFMEA generation** while maintaining **traceability and human oversight**.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Key Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Automated PFMEA generation from MBOM inputs  
+- AI based inference of:
+  - Severity  
+  - Occurrence  
+  - Detection  
+  - Failure causes  
+  - Current controls  
+  - Recommended actions  
+- Automatic **Risk Priority Number (RPN)** calculation  
+- Structured **Excel report generation** aligned with PFMEA standards  
+- Consistent formatting suitable for audits and reviews  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## System Architecture (Text Overview)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The PFMEA Automation Platform follows a layered architecture:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Input Layer:** MBOM file upload and process context parameters  
+- **AI Analysis Layer:** Retrieval of historical PFMEA references and AI based risk inference  
+- **Processing Layer:** Validation, normalization, and RPN calculation  
+- **Output Layer:** Structured Excel PFMEA report generation  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This separation ensures scalability, maintainability, and traceability of AI generated outputs.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Technology Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Backend
+- Python  
+- FastAPI  
+- Pydantic  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### AI and Data Processing
+- Large Language Models (LLMs)  
+- Prompt engineering for structured outputs  
+- Rule based post processing  
 
-### Code Splitting
+### File and Report Generation
+- OpenPyXL  
+- Excel automation  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Frontend (Optional)
+- React.js  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Workflow
 
-### Making a Progressive Web App
+1. Upload MBOM file  
+2. Provide process context and parameters  
+3. AI generates PFMEA fields using historical patterns and process logic  
+4. System calculates RPN values automatically  
+5. Final PFMEA Excel report is generated and downloaded  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Sample Output
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The generated PFMEA report includes:
 
-### Deployment
+- Process step mapping  
+- Failure modes and effects  
+- Severity, Occurrence, and Detection scores  
+- Calculated RPN values  
+- Highlighted high risk entries  
+- Recommended mitigation actions  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Impact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Significantly reduced PFMEA preparation time  
+- Improved consistency across PFMEA reports  
+- Faster risk assessment cycles  
+- Reduced dependency on manual spreadsheet workflows  
+
+---
+
+## Limitations
+
+- AI generated outputs require domain expert validation  
+- Effectiveness depends on the quality of historical PFMEA data  
+- Not intended to replace engineering judgment  
+
+---
+
+## Future Enhancements
+
+- Integration with PLM and MES systems  
+- Feedback loop to improve AI outputs over time  
+- Support for DFMEA and Control Plans  
+- Dashboard for risk trend analysis  
+
+---
+
+## Disclaimer
+
+This project serves as a **decision support system**.  
+Final PFMEA approval should always be performed by **qualified manufacturing and quality engineers**.
+
+---
+
+## Author
+
+**Rithanya Manoharaun**  
+B.Tech Artificial Intelligence and Data Science  
+GitHub: https://github.com/Rithanya654
