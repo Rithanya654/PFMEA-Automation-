@@ -1,0 +1,312 @@
+functions,key steps,requirement,potential failure mode,potential effect(s) of failure,sev,class,diversity,potential cause(s) of failure,current design - controls prevention,current design occur,current design -controls detection,current design - detection,rpn,recommended action,responsibility &target completion date,action results - action taken&  completion date,action results - sev,action results - occur,action results -detec,action results - rpn,quality gate,remarks,iqf number
+lamp roof frt,front interior lamp,correct selection of part,wrong selection,variant mismatch.,4,,yes,identification mark not available,select the right part based on the part identification sheet,3,visual inspection,8,96,part identification sheet displayed in station,industrial team (suresh; arun kumar) & vrs 1.3,16/7/2021,4,3,6,72,pi_tr-0012,,154
+lamp roof frt,harness connector, completely fix the harness connector,partially fix the harness connector,functional failure,4,,,operator not follow the work instruction,"1.operator training
+2.ensure connector click sound",3,visual inspection,8,96,,,,,,,,,,
+lamp roof frt,harness connector, completely fix the interior lamp,partially fix the interior lamp,"1.part fall down
+2.poor asthetic issue due to improper fitment",4,,,operator not follow the work instruction,1.operator training,3,visual inspection,8,96,,,,,,,,,,
+lh b pillar lower trim ens,fr plr trim,correct selection of part,not applicable,nil,6,,no,nil,no diversity,1,no diversity,1,6,,,,,,,,,,154
+lh b pillar lower trim ens,fr plr trim,completely fixing of fr pillar ,partially fitted with panel,"1.clip broken
+2.part fall down
+3.poor aesthtic",4,,,operator not follow the work instruction( ensure the click sound),operator training and click sound,3,visual inspection,8,96,,,,,,,,,,
+ens rh quarter panel trim,qtr plr upr,correct selection of part,not applicable,nil,6,,no,nil,no diversity,1,no diversity,1,6,,,,,,,,,,154
+ens rh quarter panel trim,qtr plr upr,completely fixing of fr pillar ,partially fitted with panel,"1.clip broken
+2.part fall down
+3.poor aesthtic",4,,,operator not follow the work instruction( ensure the click sound),operator training and click sound,3,visual inspection,8,96,,,,,,,,,,
+ens lh quarter panel trim, qtr plr lwr,correct selection of part,not applicable,nil,6,,no,nil,no diversity,1,no diversity,1,6,,,,,,,,,,154
+ens lh quarter panel trim, qtr plr lwr,comlpletely fixing of qtr pillar lwr,partially fitted with panel,"1.clip broken
+2.part fall down
+3.poor aesthtic",4,,,operator not follow the work instruction( ensure the click sound),operator training and click sound,3,visual inspection,8,96,,,,,,,,,,
+ens rr seat,rr seat cushion,correct selection of part,wrong selection,"1,variant mismatch.",6,,,identification mark not available,no diversity,1,no diversity,1,6,,,,,,,,,,154
+ens rr seat,rr seat cushion,completely fixing of rr seat cushion,partial fixing of rr seat cushion,"1.wrinkle and sagging
+2.poor aesthetic ( uneven gap between seat and qtr pillar)",6,,,operator not follow the work instruction,operator training,3,visual inspection,8,144,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,8,3,4,96,,,
+ens rr seat,fasteners,completely fixing of rr seat cushion fasteners,loose fitment ,"1.more vibration and creates rattle noise 
+2.poor aesthetic ( uneven gap between seat and qtr pillar)",9,er4,,operator choose wrong tool,"1. select the right tool
+2. primary verification- shut-off gun",2,"1. using torque wrench after fastening
+2. secondary verification with paint marking",8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,8,2,3,48,available,,
+ens rr seat,fasteners,,over tightened,"1. screw broken
+2. primery function can lose",9,er4,,operator choose wrong tool,"1. select the right tool
+2. primary verification- shut-off gun",2,"1. using torque wrench after fastening
+2. secondary verification with paint marking",8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,8,2,3,48,available,,
+ens rr seat,fasteners,completely fixing of rr seat cushion fasteners,loose fitment ,"1.more vibration and creates rattle noise 
+2.poor aesthetic ( uneven gap between seat and qtr pillar)",9,er4,,operator choose wrong tool,"1. select the right tool
+2. primary verification- shut-off gun",2,"1. using torque wrench after fastening
+2. secondary verification with paint marking",8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,8,2,5,80,available,,
+ens rr seat,fasteners,,over tightened,"1.screw broken
+",9,er4,,operator choose wrong tool,"1. select the right tool
+2. primary verification- shut-off gun",2,"1. using torque wrench after fastening
+2. secondary verification with paint marking",8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,8,2,5,80,available,,
+ens rr seat,rr seat back rest,correct selection of part,wrong selection,"1,variant mismatch.",6,,,identification mark not available,no diversity,1,no diversity,1,6,,,,,,,,,,154
+ens rr seat,rr seat back rest,completely fixing of rr seat back rest,partial fixing with biw hook,"1.creep noise
+2.part fall down
+3.poor aesthtic (uneven gap)",4,,,operator not follow the work instruction(not ensure the click sound),operator training( ensure the click sound),3,visual inspection,8,96,,,,,,,,,,
+facia panel ens cluster finisher,cluster bottom ext,correct selection of part,not applicable,nil,5,,no,nil,no diversity,1,no diversity,1,5,,,,,,,,,,154
+facia panel ens cluster finisher,cluster bottom ext,completely fixing of cluster bottom ext,partial fixing of cluster bottom extension,"1.part fall down
+2.poor aesthtic",4,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,8,96,,,,,,,,,,
+facia panel ens cluster finisher,fasteners,completely fixing of cluster bottom ext screw,loose fitment ,"1. poor aesthitic ( more gap)
+2.part falldown",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+facia panel ens cluster finisher,fasteners,,over tightened,"1.screw broken
+2.poor aesthitic",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+facia panel ens cluster finisher,cluster bezel,correct selection of part,wrong selection,"1,variant mismatch.",5,,yes,identification mark not available,select the right part,3,visual inspection,8,120,alc code need  to be provided,design team (kingsly; narendra) & vrs 2.1,,5,3,5,75,,,154
+facia panel ens cluster finisher,cluster bezel,completely fixing of cluster bezel,partial fixing with cluster bezel,"1.part fall down
+2.poor aesthtic",4,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,8,96,,,,,,,,,,
+roof panel lh side airbag,side cover,correct selection of part,not applicable,nil,5,,no,nil,no diversity,1,no diversity,1,5,,,,,,,,,,154
+roof panel lh side airbag,side cover,completely fixing of ip side cover,partial fixing ,"1.clip broken
+2.part fall down
+3.poor aesthtic",4,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,8,96,,,,,,,,,,
+roof panel rh side airbag,side cover,correct selection of part,not applicable,nil,5,,no,nil,no diversity,1,no diversity,1,5,,,,,,,,,,154
+roof panel rh side airbag,side cover,completely fixing of ip side cover,partial fixing ,"1.clip broken
+2.part fall down
+3.poor aesthtic",4,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,8,96,,,,,,,,,,
+steering column upr half-sheaft,strg col upr,correct selection of part,not applicable,nil,5,,no,nil,no diversity,1,no diversity,1,5,,,,,,,,,,154
+steering column upr half-sheaft,strg col upr,completely fixing of strg col upr,partial fixing of strg col upr,"1.rubbing noise with strg wheel
+2. poor aesthitic ( more gap)
+3.part falldown",4,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,8,96,,,,,,,,,,
+steering column lwr half-sheaft,strg col lwr,correct selection of part,not applicable,nil,5,,no,nil,no diversity,1,no diversity,1,5,,,,,,,,,,154
+steering column lwr half-sheaft,strg col lwr,completely fixing of strg col lwr,partial fixing of strg col lwr,"1.rubbing noise with strg wheel
+2. poor aesthitic ( more gap)
+3.part falldown",4,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,8,96,,,,,,,,,,
+steering column lwr half-sheaft,front mounting screw,proper fixing of strg col lwr screw,loose fitment ,"1.rubbing noise with strg wheel
+2. poor aesthitic ( more gap)
+3.part falldown",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+steering column lwr half-sheaft,front mounting screw,,over tightened,"1.rubbing noise with strg wheel
+2. poor aesthitic ( more gap and flush)
+3.screw broken",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+steering column lwr half-sheaft,bottom mounting screw,proper fixing of strg col lwr screw,partial fitment ,"1.rubbing noise with strg wheel
+2. poor aesthitic ( more gap)
+",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+steering column lwr half-sheaft,bottom mounting screw,,over tightened,"1.rubbing noise with strg wheel
+2. poor aesthitic ( more gap and flush)
+3.screw broken",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+toolbox,psgr dummy,correct selection of part,wrong selection,"1,variant mismatch.",6,,yes,identification mark not available,select the right part,3,visual inspection,8,144,alc code need  to be provided,design team (kingsly; narendra) & vrs 2.1,,6,3,5,90,,,154
+toolbox,psgr dummy,completely fixing of psgr dummy,partial fixing of psgr dummy,"1. poor aesthitic ( more gap)
+3.clip breakage",4,,,operator not follow the work instruction,operator training,3,visual inspection,8,96,,,,,,,,,,
+console ens,centre facia assy,correct selection of part,wrong selection,"1,variant mismatch.",4,,yes,identification mark not available,select the right part,3,visual inspection,8,96,alc code need  to be provided,design team (kingsly; narendra) & vrs 2.1,,4,4,5,80,,,154
+console ens,centre facia assy,completely fixing of centre facia assy,partial fixing of center fascia assembly,"1. poor aesthitic ( more gap)
+2.clip breakage",4,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,8,96,,,,,,,,,,
+console rr ass,centre console fr,correct selection of part,wrong selection,"1,variant mismatch.",6,,yes,identification mark not available,select the right part,3,visual inspection,8,144,alc code need  to be provided,design team (sabit shaikh; sandeep) & vrs 2.1,,6,3,5,90,,,154
+console rr ass,centre console fr,completely fixing of centre console fr,partial fixing of centre console fr,"1. poor aesthitic ( more gap)
+2.part falldown",4,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,8,96,,,,,,,,,,
+console rr ass,fasteners,completely fixing of centre console fr screw,partial fitment ,"1. poor aesthitic ( more gap)
+2.part falldown",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+console rr ass,fasteners,,over tightened,"1.screw broken
+2.part damage",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+console rr ass,push clips,proper fixing of centre console fr push clip,improper fixing of push clip,"1.push clip boken
+2.partial fixing",5,,,operator not follow the work instruction(not ensure the click sound),operator training( ensure the click sound),3,visual inspection and ensure by touch,7,105,,,,,,,,,,
+console rr,ip fascia assy-rhd,correct selection of part,wrong selection,"1,variant mismatch.",6,,yes,identification mark not available,select the right part,3,visual inspection,8,144,alc code need  to be provided,design team (kingsly; narendra) & vrs 2.1,,6,3,5,90,,,154
+console rr,ip fascia assy-rhd,completely routing of wiring harness,partial routing of wiring harness,"1. harness and connector damage
+",5,,,operator not follow the work instruction,operator training,3,visual inspection,8,120,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,5,3,5,75,,,
+console rr,ip fascia assy-rhd,completely fixing of ip fascia assy - rhd,partial fixing of ip assy,"1. poor aesthitic ( more gap and flush)
+2.interference with windshield
+3.interference with strg col and hvac",5,,,operator not follow the work instruction,operator training,3,visual inspection,8,120,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,5,3,5,75,gap and flush check point,,
+console rr,fastener,completely fixing of ip fascia assy - rhd screw,partial fitment ,"1. poor aesthitic ( more gap)
+2.part falldown",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+console rr,fastener,,over tightened,"1. poor aesthitic ( more gap and flush)
+2.screw and metal clip broken",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,gap and flush check point,,
+handle ext door rh,rr handle,correct selection of part,wrong selection,"1,variant mismatch.",5,,no,identification mark not available,part identification sheet and operator training,3,visual inspection,7,105,,,,,,,,,,154
+handle ext door rh,rr handle,completely fix of inside hadle cable hook,partial fix of inside hadle cable hook,"1. functional failure
+2.rattle noise",5,,,operator not follow the work instruction,operator training,3,visual inspection,8,120,quality process sheet,industrialization team (suresh/arunkumar) & wk-38,,5,3,5,75,,,
+handle ext door rh,rr handle,completely fix of inside handle in rr door trim,partial fix of inside handle in rr door trim,"1.poor aesthitic
+2.rattle noise",5,,,operator not follow the work instruction (ensure the click sound),operator training,3,visual inspection,8,120,quality process sheet,industrialization team (suresh/arunkumar) & wk-38,,5,3,5,75,,,
+handle ext door rh,grommet,completely fix of inside handle  grommet,partial fixing of inside handle  grommet,1.part falldown,5,,,operator not follow the work instruction (ensure the click sound),operator training,3,visual inspection,8,120,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,5,3,5,75,,,
+handle ext door rh,fasteners,proper fix of inside handle fastener,partial fitment ,"1. poor aesthitic ( more gap)
+2.part falldown",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+handle ext door rh,fasteners,,over tightened,"1. poor aesthitic ( more gap and flush)
+2.screw and metal clip broken",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+panel trim door rr rh asm,rr door trim,correct selection of part,wrong selection,"1,variant mismatch.",5,,no,identification mark not available,operator training,3,visual inspection,8,120,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,5,3,5,75,,,154
+panel trim door rr rh asm,rr door trim,completely fix of rr door trim,partial fix of rr door trim,"1,clip broken
+2, poor aesthitic (more gap)
+3, part falldown",5,,,operator not follow the work instruction (ensure to hear click sound),operator training,3,visual inspection,8,120,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,5,3,5,75,,,
+panel trim door rr rh asm,grommet,completely fix of rr door trim grommet,partial fix of rr door trim grommet,"1,part falldown",5,,,operator not follow the work instruction (ensure the click sound),operator training,3,visual inspection,8,120,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,5,3,5,75,,,
+panel trim door rr rh asm,fasteners,proper fix of rr door trim fastener,partial fitment ,"1. poor aesthitic ( more gap)
+2.part falldown",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+panel trim door rr rh asm,fasteners,,over tightened,"1. poor aesthitic ( more gap and flush)
+2.screw and grommet broken",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+transmitter levelling control headlamp,knob,completely fixing of head lamp actuator knob,partial fixing of head lamp actuator knob,"1. rattle noise
+2.part falldown",5,,,operator not follow the work instruction (ensure to hear click sound),operator training,3,visual inspection ,8,120,quality process sheet,industrialization team (suresh/arunkumar) & wk-38,,5,3,5,75,,,
+multifunction ctrl block,hvac ctrl,correct selection of part,not applicable,nil,5,,no,nil,no diversity,1,no diversity,1,5,,,,,,,,,,154
+multifunction ctrl block,hvac ctrl,completely fix of bourdon cable,partial fix of bourden cable,"1.poor ac flow
+",5,,,operator not follow the work instruction,operator training and orientation mark ,3,visual inspection,8,120,quality process sheet,industrialization team (suresh/arunkumar) & wk-38,,5,3,5,75,available,,
+multifunction ctrl block,hvac ctrl,completely fix of hvac ctrl connector,partial fixing of hvac ctrl connector,functional failure and rattle noise,5,,,operator not follow the work instruction (ensure to hear click sound),operator training,3,visual inspection,8,120,quality process sheet,industrialization team (suresh/arunkumar) & wk-38,,5,3,5,75,,,
+multifunction ctrl block,fasteners,completely fix of hvac ctrl fastener,partial fitment ,"1. rattle noise
+2.part falldown
+3. poor aesthitic",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+multifunction ctrl block,fasteners,,over tightened,"1. poor aesthitic ( more gap and flush)
+2.screw and metal clip broken",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+hand brake gaiter on hand lever, hand brake bezel,correct selection of part,not applicable,nil,5,,no,nil,no diversity,1,no diversity,1,5,,,,,,,,,,154
+hand brake gaiter on hand lever, hand brake bezel,proper fixing of hand brake bezel,improper fixing( partially fitted),"1.clip broken
+2.part fall down
+3.poor aesthtic",5,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,4,60,,,,,,,,,,
+ens lh frt seat,fr seat,correct selection of part,wrong selection,"1,variant mismatch.",6,,yes,identification mark not available,select the right part,3,visual inspection,7,126,identification mark provided in part,design team (ramachandran; manoranjan) vrs1,,6,4,4,96,,,154
+ens lh frt seat,fr seat,comletely fixing of fr seat,partial fixing of fr seat,"1. abnormal track movement
+2.irregular seat recliner lock
+3. creek noise
+4.fastener damage",9,er4,,operator not follow the work instruction (ensure to hear click sound),".operator training
+",3,"1.visual inspection
+",8,216,quality process sheet,industrialization team (suresh/arunkumar) & wk-38,,8,3,4,96,,,
+ens lh frt seat,fr seat,completely fixing of fr buckle connector,partial fitment ,functional failure and rattle noise,9,er4,,operator not follow the work instruction (ensure to hear click sound),"1.operator training
+2.ensure with click sound",3,"1.visual inspection
+2.secondary verification with paint mark
+3. push and pull test",8,216,quality process sheet,industrialization team (suresh/arunkumar) & wk-38,,8,3,4,96,,,
+ens lh frt seat,fr seat,proper fix of odc connector,partial fitment ,functional failure and rattle noise,9,er4,,operator not follow the work instruction (ensure to hear click sound),"1.operator training
+2.ensure with click sound",3,"1.visual inspection
+2.secondary verification with paint mark
+3. push and pull test",8,216,quality process sheet,industrialization team (suresh/arunkumar) & wk-38,,8,3,4,96,,,
+ens lh frt seat,fasteners,proper fixing of fr seat bolt,partial fitment ,"1. abnormal track movement
+2.irregular seat recliner lock
+3. creek noise
+4.fastener damage",9,er4,,operator choose wrong tool,"1. select the right tool
+2. primary verification- shut-off gun",3,"1. using torque wrench after fastening
+2. secondary verification with paint marking",8,216,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,8,3,4,96,available,,
+ens lh frt seat,fasteners,,over tightened,"1.fastener broken
+2.abnormal track movement",9,er4,,operator choose wrong tool,"1. select the right tool
+2. primary verification- shut-off gun",3,"1. using torque wrench after fastening
+2. secondary verification with paint marking",8,216,quality process sheet,industrialization team (suresh/arunkumar) & wk-38,,8,3,4,96,available,,
+seatbelt remind telltale box mechatronic,fasteners,proper fixing of fr seat bolt,partial fitment ,"1. abnormal track movement
+2.irregular seat recliner lock
+3. creek noise
+4.fastener damage",9,er4,,operator choose wrong tool,"1. select the right tool
+2. primary verification- shut-off gun",3,"1. using torque wrench after fastening
+2. secondary verification with paint marking",8,216,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,8,3,4,96,available,,
+seatbelt remind telltale box mechatronic,fasteners,,over tightened,"1.fastener broken
+2.abnormal track movement",9,er4,,operator choose wrong tool,"1. select the right tool
+2. primary verification- shut-off gun",3,"1. using torque wrench after fastening
+2. secondary verification with paint marking",8,216,quality process sheet,industrialization team (suresh/arunkumar) & wk-38,,8,3,4,96,available,,
+grab handle,fr inside handle,correct selection of part,wrong selection,"1,variant mismatch.",5,,no,identification mark not available,part identification sheet and operator training,3,visual inspection,7,105,,,,,,,,,,154
+grab handle,fr inside handle,completely fix of inside hadle cable hook,partial fix of inside hadle cable hook,"1. functional failure
+2.rattle noise",5,iqx,,operator not follow the work instruction,operator training,3,visual inspection,8,120,quality process sheet / key point addedin process sheet,industrialization team (suresh/arunkumar) & wk-38,12/6/2021 0:00,5,3,5,75,cc21/ga/fn-1511,,
+grab handle,fr inside handle,completely fix of inside handle in rr door trim,partial fix of inside handle in rr door trim,"1.poor aesthitic
+2.rattle noise",5,iqx,,operator not follow the work instruction (ensure the click sound),operator training,3,visual inspection,8,120,quality process sheet / key point addedin process sheet,industrialization team (suresh/arunkumar) & wk-38,12/6/2021 0:00,5,3,5,75,cc21/ga/fn-1511,,
+grab handle,grommet,completely fix of inside handle  grommet,partial fixing of inside handle  grommet,1.part falldown,5,,,operator not follow the work instruction (ensure the click sound),operator training,3,visual inspection,8,120,quality process sheet,industrialization team (suresh/arunkumar) & wk-38,,5,3,5,75,,,
+grab handle,fasteners,proper fix of inside handle fastener,partial fitment ,"1. poor aesthitic ( more gap)
+2.part falldown",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+grab handle,fasteners,,over tightened,"1. poor aesthitic ( more gap and flush)
+2.screw and metal clip broken",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+handle ext door lh,fr door trim,correct selection of part,wrong selection,"1,variant mismatch.",5,,no,identification mark not available,operator training,3,visual inspection,8,120,quality process sheet,industrialization team (suresh/arunkumar) & wk-38,,5,3,5,75,,,154
+handle ext door lh,fr door trim,completely fix of fr door trim,partial fix of fr door trim,"1,clip broken
+2, poor aesthitic (more gap)
+3, part falldown",5,iqx,,operator not follow the work instruction (ensure to hear click sound),operator training,3,visual inspection,8,120,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,5,3,5,75,cc21/ga/fn-1600,,
+handle ext door lh,grommet,completely fix of fr door trim grommet,partial fix of fr door trim grommet,"1,part falldown",5,,,operator not follow the work instruction (ensure the click sound),operator training,3,visual inspection,8,120,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,5,3,5,75,,,
+handle ext door lh,fasteners,proper fix of fr door trim fastener,partial fitment ,"1. poor aesthitic ( more gap)
+2.part falldown",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+handle ext door lh,fasteners,,over tightened,"1. poor aesthitic ( more gap and flush)
+2.screw and grommet broken",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+cover fixing facia panel lh,console cover,correct selection of part,not applicable,nil,5,,no,nil,no diversity,1,no diversity,1,5,alc code need  to be provided,design team (sabit shaikh; sandeep) & vrs 2.1,,,,,,,,154
+cover fixing facia panel lh,console cover,completely fixing of console cover,partialy fixing of console cover,"1.clip broken
+2.part fall down
+3.poor aesthtic",5,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,4,60,,,,,,,,,,
+panel trim door rr lh asm,dr pull cup,correct selection of part,wrong selection,"1,variant mismatch.",5,,,identification mark not available,select the right part,3,visual inspection,7,105,identification mark provided in part,design team (sabit shaikh; sandeep) & vrs1,,5,4,4,80,,,154
+panel trim door rr lh asm,dr pull cup,completely fixing of pwr wdw sw in pull cup ,partial fixing,"1.part fall down
+2.poor aesthtic",5,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,8,120,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,5,3,5,75,,,
+panel trim door rr lh asm,dr pull cup,completely fixing of pull cup,partial fixing,"1.clip broken
+2.part fall down
+3.poor aesthtic",5,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,8,120,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,5,3,5,75,,,
+panel trim door rr lh asm,fasteners,completely fix of pull cup fasteners,partial fitment ,"1. poor aesthitic ( more gap)
+2.part falldown",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+panel trim door rr lh asm,fasteners,,over tightened,"1. poor aesthitic ( more gap and flush)
+2.screw and grommet broken",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+panel trim door rr lh asm,screw cap,completely fix of screw cap,partial fixing,"1.part fall down
+2.poor aesthtic",5,,,operator not follow the work instruction,operator training,3,visual inspection,8,120,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,5,3,5,75,,,
+panel trim door rh asm,psgr pull cup,correct selection of part,wrong selection,"1,variant mismatch.",5,,,identification mark not available,select the right part,3,visual inspection,7,105,identification mark provided in part,design team (sabit shaikh; sandeep) & vrs1,,5,4,4,80,,,154
+panel trim door rh asm,psgr pull cup,completely fixing of pwr wdw sw in pull cup ,partial fixing,"1.part fall down
+2.poor aesthtic",5,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,8,120,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,5,3,5,75,,,
+panel trim door rh asm,psgr pull cup,completely fixing of pull cup,partial fixing,"1.clip broken
+2.part fall down
+3.poor aesthtic",5,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,8,120,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,5,3,5,75,,,
+panel trim door rh asm,fasteners,completely fix of pull cup fasteners,partial fitment ,"1. poor aesthitic ( more gap)
+2.part falldown",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+panel trim door rh asm,fasteners,,over tightened,"1. poor aesthitic ( more gap and flush)
+2.screw and grommet broken",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,industrialization team (suresh/arunkumar) & vrs 1.3,5/8/2021 0:00,6,3,5,90,,,
+panel trim door rh asm,screw cap,completely fix of screw cap,partial fixing,"1.part fall down
+2.poor aesthtic",5,,,operator not follow the work instruction,operator training,3,visual inspection,8,120,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,5,3,5,75,,,
+rh r/v mirror,mirror patch,correct selection of part,wrong selection,"1,variant mismatch.",5,,,identification mark not available,select the right part,3,visual inspection,7,105,identification mark provided in part,design team (varun kumar; sandeep) & vrs1,,5,4,4,80,,,154
+rh r/v mirror,mirror patch,completely routing and fixing of joystick cable,partial fixing,"1.part fall down
+2.poor aesthtic",5,,,operator not follow the work instruction,operator training,3,visual inspection,7,105,,,,,,,,,,
+rh r/v mirror,mirror patch,completely fixing of mirror patch,partial fixing,"1.clip broken
+2.part fall down
+3.poor aesthtic",5,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,7,105,,,,,,,,,,
+lh r/v mirror,fr & rr winding hanl - l _r,correct selection of part,wrong selection,"1,variant mismatch.",5,,,identification mark not available,no diversity,1,no diversity,1,5,,,,,,,,,,154
+lh r/v mirror,fr & rr winding hanl - l _r,completely fixing of winding handle,partial fixing,"1.clip broken
+2.part fall down
+3.poor aesthtic",5,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,8,120,before instalation part to be checked,manufacturing team (balachandar; anoop kumar) & vrs 1.3,12/6/2021 0:00,5,3,5,75,,,
+vin tag,vin lable,correct selection of part,wrong selection,"1,variant mismatch.",5,,,identification mark not available,no diversity,1,no diversity,1,5,,,,,,,,,,154
+vin tag,vin lable,completely fixing of vin plate,partial fixing,"1.clip broken
+2.part fall down
+3.poor aesthtic",5,,,,,,,,,,,,,,,,,,
+vin tag,vin punching machine,condition of vin punching machine,punching issue in machine,improper punching,6,,,"pm activity to be conform, and tpm to be checked",maitenace to follow pm check sheet and update the pm document ,3,visual inspection,5,90,maitenace to follow pm check sheet and update the pm document ,maintenance,,6,3,5,90,cc21/ga/qpc-8018,,
+vin tag,fasteners,proper fix of fr door trim fastener,partial fitment ,"1. poor aesthitic ( more gap)
+2.part falldown",6,,,"operator choose wrong tool
+","1. select the right tool based on the master check sheet
+",3,visual inspection,8,144,stick the tool id / calibration details on the tool,monitor,,6,3,5,90,cc21/ga/qpc-8018,,
+sub assy center fascia rr bezel in center pin,rr bezel,correct selection of part,not applicable,nil,5,,no,nil,no diversity,1,no diversity,1,5,,,,,,,,,,
+sub assy center fascia rr bezel in center pin,rr bezel,completely fixing of rr bezel,partial fixing with rr bezel,"1.part fall down
+2.poor aesthtic",5,,,operator not follow the work instruction( ensure the click sound),operator training,3,visual inspection,7,105,,,,,,,,,,
+refrigerant,ac gas,vacuum filling of ac gas till specified level,low level filling of ac gas in the tank,"1. poor ac flow
+",7,,,equipment error/malfunctioning,equipment callibration,2,visual inspection,8,112,maitenace to follow pm check sheet and update the pm document ,maintenance,,7,2,7,98,cc21/ga/qpc-8018,,
+refrigerant,ac gas,,excess filling of ac gas,"1. ac leakage
+",7,,,equipment error/malfunctioning,equipment callibration,2,visual inspection,8,112,maitenace to follow pm check sheet and update the pm document ,maintenance,,7,2,7,98,cc21/ga/qpc-8018,,
+refrigerant,ac filling m/c  adaptor ,proper adaptor fitment ,loosen fitemnt,1. ac leakage,7,,,equipment error/malfunctioning,firm fitment of adaptor on hp and lp ,3,visual inspection / push pull check,4,84,,,,,,,,,,
+refrigerant,ac filling m/c  adaptor ,,adaptor seal,1. ac leakage,7,,,equipment error/malfunctioning,firm fitment of adaptor on hp and lp ,3,test jig,4,84,,,,,,,,,,
+refrigerant,ac filling m/c  adaptor ,,condition of machine ,not filling,4,,,"pm activity to be conform, and tpm to be checked",maitenace to follow pm check sheet and update the pm document ,3,visual inspection,5,60,maitenace to follow pm check sheet and update the pm document ,maintenance,,6,3,5,90,cc21/ga/qpc-8018,,
+usb multiple plug,fr usb,correct selection of part,machine ,1. variant mismatch.,6,,no,identification mark not available,no diversity,1,no diversity,1,6,,,,,,,,,,
+usb multiple plug,fr usb,proper fix of front usb,improper fixing,"1. part damage-snap fit broken
+2. rattle noise  appear",4,,,operator not follow the work instruction,operator training,3,visual inspection,8,96,,,,,,,,,,
+usb multiple plug,fr usb,proper connection of harness,improper connection,function failure,8,,,operator not follow the work instruction,"1. operator training
+2. operator should ensure with click sound.",3,visual inspection,8,192,quality process sheet,industrialization team (suresh/arunkumar) & wk-38,,8,3,4,96,,,
+integrated switch module swfc - swic,hazard sw,correct selection of part,wrong selection,1. variant mismatch.,6,,no,identification mark not available,no diversity,1,no diversity,1,6,,,,,,,,,,
+integrated switch module swfc - swic,hazard sw,proper fix of hazard switch,improper fixing,"1. part damege-snap fit broken
+2. rattle noise  appear",4,,,operator not follow the work instruction,operator training,3,visual inspection,8,96,,,,,,,,,,
+integrated switch module swfc - swic,hazard sw,proper connection of harness,improper connection,function failure,8,,,operator not follow the work instruction,"1. operator training
+2. operator should ensure with click sound.",3,visual inspection,8,192,quality process sheet,industrialization team (suresh/arunkumar) & wk-38,,8,3,4,96,,,
+sos switch,power socket,correct selection of part,wrong selection,1. variant mismatch.,6,,no,identification mark not available,no diversity,1,no diversity,1,6,,,,,,,,,,
+sos switch,power socket,proper fix of power socket,improper fixing,"1. part damege-snap fit broken
+2. rattle noise  appear",4,,,operator not follow the work instruction,operator training,3,visual inspection,8,96,,,,,,,,,,
+sos switch,power socket,proper connection of harness,improper connection,function failure,8,,,operator not follow the work instruction,"1. operator training
+2. operator should ensure with click sound.",3,visual inspection,8,192,quality process sheet,industrialization team (suresh/arunkumar) & wk-38,,8,3,4,96,,,
